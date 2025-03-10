@@ -1,9 +1,8 @@
-// Prompt the user to enter a number
-const number_1 = prompt('Enter the first number: ');
+const number = prompt('Enter the first number: ');
 var result = 0;
 
 // Convert the input to a number
-let number = Number(number_1);
+let numar = Number(number);
 
 // Check if the input is a valid number
 if (isNaN(number)) {
