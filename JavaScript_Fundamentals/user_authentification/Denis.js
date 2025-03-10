@@ -1,6 +1,6 @@
 const correctUser = {
     username: "denis",
-    password: "heychilat"
+    password: "loginden"
 };
 
 function validateUser(username, password) {
@@ -20,5 +20,5 @@ function validateUser(username, password) {
 }
 
 console.log(validateUser("", ""));
-console.log(validateUser("wronguser", "wrongpasswordhmm"));
-console.log(validateUser("denis", "heychilat"));
+console.log(validateUser("wronguser", "wrongpassword"));
+console.log(validateUser("denis", "loginden"));
