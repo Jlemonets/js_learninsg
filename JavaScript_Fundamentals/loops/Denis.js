@@ -1,13 +1,6 @@
 let startNumber = Number(prompt("Enter first number:"));
 let endNumber = Number(prompt("Enter second number:"));
 
-// tutorial how to check if number is even or odd.. i have tendency to forget this
-// 4 % 2 = 0 (4 divided by 2 equals 2 with remainder 0 -> even)
-// 5 % 2 = 1 (5 divided by 2 equals 2 with remainder 1 -> odd)
-// 6 % 2 = 0 (6 divided by 2 equals 3 with remainder 0 -> even)
-
-//calculate sum of even numbers from interval a, b
-
 if (isNaN(startNumber) || isNaN(endNumber)) {
     alert("Please enter valid numbers!");
 } else {
